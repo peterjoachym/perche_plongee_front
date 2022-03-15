@@ -1,0 +1,36 @@
+.member-list-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.members-list {
+  padding: 3em;
+  display: grid;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media screen and (min-width: 550px) {
+  .members-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .members-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .members-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .members-list {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

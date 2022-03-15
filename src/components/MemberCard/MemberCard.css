@@ -1,0 +1,16 @@
+.member-card {
+  width: 220px;
+  height: 300px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 3rem;
+  justify-self: center;
+  box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  padding-top: 25px;
+  max-height: 70%;
+  max-width: 80%;
+}

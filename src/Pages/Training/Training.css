@@ -1,0 +1,78 @@
+/*
+=============
+Variables
+=============
+*/
+:root {
+  --light-bg-color: lightgray;
+  --box-shadow: 10px 5px 5px #0066cb;
+  --border: 2px solid black;
+}
+
+.training {
+  margin: auto;
+  display: grid;
+}
+
+.training__intro {
+  text-align: center;
+  margin: 2em;
+}
+
+.training h1 {
+  font-size: 2rem;
+  margin: 50px;
+  text-align: center;
+}
+
+.cards {
+  max-width: 1200px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+  padding: 3em;
+  border: var(--border);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  contain: content;
+}
+
+.container {
+  height: 90%;
+  width: auto;
+}
+
+.illustration {
+  width: 100%;
+  object-fit: contain;
+  overflow: hidden;
+  background-color: var(--light-bg-color);
+  border-radius: 20px;
+}
+
+/* .card p {
+  height: 20%;
+  margin-top: 15px;
+  padding: 0 10px;
+} */
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* .card {
+    min-height: ;
+  } */
+}
+
+@media screen and (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

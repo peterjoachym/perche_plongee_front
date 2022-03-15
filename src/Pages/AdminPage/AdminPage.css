@@ -1,0 +1,12 @@
+.amdin-page {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.admin-container {
+  background: lightgray;
+  margin: 10px auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}

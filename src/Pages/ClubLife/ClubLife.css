@@ -1,0 +1,65 @@
+a {
+  text-decoration: none;
+  color: #0066cb;
+}
+
+.club-life-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.pdf-buttons-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.folder-image {
+  height: 5vh;
+}
+
+.pdf-file-button {
+  background-color: transparent;
+  border-color: transparent;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  color: #0066cb;
+  font-size: 2vh;
+}
+
+.pdf-image {
+  height: 3vh;
+}
+
+.archive-container {
+  display: flex;
+  height: 7vh;
+  margin-left: 5%;
+}
+
+.folder-button-archives {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border-color: transparent;
+  color: #0066cb;
+  font-size: 2vh;
+}
+
+.editorial-container {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  margin-left: 7%;
+  padding: 1%;
+  width: 80%;
+}
+
+.title-president {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,95 @@
+.admin-form-container {
+  padding: 50px;
+}
+
+.display-members-container {
+  width: 100%;
+  height: 30vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #fff;
+}
+
+.display-title {
+  margin: 10px 0;
+}
+
+.button-link {
+  padding-top: 30px;
+}
+
+.member-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.submit-member {
+  color: #fff;
+  background: #0066cb;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit-button {
+  color: #fff;
+  background: #0066cb;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+label {
+  display: grid;
+  padding: 10px 0;
+}
+
+.admin-check {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+}
+
+input,
+select {
+  padding: 10px 5px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: none;
+}
+
+input#memberId {
+  width: 100px;
+}
+
+input#avatar {
+  padding: 0;
+  border-radius: 0;
+}
+
+input#lastName,
+input#email__inter,
+select#clubRole {
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .member-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  input#lastName,
+  input#email,
+  select#clubRole {
+    margin: 0;
+    margin-top: 5px;
+  }
+}
+
+.picture__admin__events {
+  width: 10%;
+}
